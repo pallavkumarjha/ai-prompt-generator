@@ -96,7 +96,8 @@ export default function Component() {
   return (
     <div className="min-h-screen flex flex-col bg-black text-white p-8">
       <header className="py-8">
-        <h1 className="text-4xl font-bold text-center">AI Prompt Creator</h1>
+        <h1 className="text-4xl text-center">Your AI Prompt Engineer</h1>
+        <h2 className="text-xl text-center text-light mt-4">Crafting Tailored Prompts with AI</h2>
       </header>
       <main className="flex-grow flex justify-center">
         <div className="w-full max-w-6xl bg-gray-900 rounded-lg shadow-lg overflow-hidden">
