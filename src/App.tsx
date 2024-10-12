@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from "@vercel/analytics/react"
 import { Copy, HelpCircle, ChevronDown, ChevronUp, CoffeeIcon } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -340,6 +341,7 @@ export default function Component() {
 
         </div>
       </footer>
+      <Analytics />
     </div>
   )
 }
